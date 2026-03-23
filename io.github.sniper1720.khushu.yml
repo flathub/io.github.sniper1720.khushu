@@ -26,6 +26,6 @@ modules:
         GETTEXT_SYSTEM: "1"
     sources:
       - type: archive
-        url: https://github.com/sniper1720/khushu/archive/refs/tags/v1.0.0.tar.gz
-        sha256: 82376b43f36b7da11be9afa476a127f060f036d773f98f71b1ee5712162dffc4
+        url: https://github.com/sniper1720/khushu/archive/refs/tags/v1.0.1.tar.gz
+        sha256: f7770536900d11a12752756ca1c07b00d12dc148573d5107a3803ecfc4c4ff62
       - cargo-sources.json
