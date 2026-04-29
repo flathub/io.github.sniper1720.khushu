@@ -14,6 +14,7 @@ finish-args:
   - --socket=pulseaudio
   - --device=dri
   - --talk-name=org.kde.StatusNotifierWatcher
+  - --filesystem=xdg-run/tray-icon:create
 modules:
   - name: khushu
     buildsystem: meson
@@ -26,6 +27,6 @@ modules:
         GETTEXT_SYSTEM: "1"
     sources:
       - type: archive
-        url: https://github.com/sniper1720/khushu/archive/refs/tags/v1.1.0.tar.gz
-        sha256: cb70156f99397816582db62cd0683bf3c8e81cab469164d21dd2978436b5e3a1
+        url: https://github.com/sniper1720/khushu/archive/refs/tags/v1.1.1.tar.gz
+        sha256: c2efba738739b264078cbfc587b8b0dce0409e9d9c8d53b81b1ade0e1b9f9aed
       - cargo-sources.json
