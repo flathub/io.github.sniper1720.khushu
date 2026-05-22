@@ -15,6 +15,7 @@ finish-args:
   - --device=dri
   - --talk-name=org.kde.StatusNotifierWatcher
   - --filesystem=xdg-run/tray-icon:create
+  - --env=LOCPATH=/app/usr/lib/locale
 modules:
   - name: khushu
     buildsystem: meson
@@ -25,8 +26,10 @@ modules:
         CARGO_NET_OFFLINE: "true"
         CARGO_BUILD_OFFLINE: "true"
         GETTEXT_SYSTEM: "1"
+      config-opts:
+        - -Dgenerate_locales=auto
     sources:
       - type: archive
-        url: https://github.com/sniper1720/khushu/archive/refs/tags/v1.1.1.tar.gz
-        sha256: c2efba738739b264078cbfc587b8b0dce0409e9d9c8d53b81b1ade0e1b9f9aed
+        url: https://github.com/sniper1720/khushu/archive/refs/tags/v1.1.2.tar.gz
+        sha256: e826cddd0114116b75a29415ed1c8e1f303422cc662d0896a5255841be082bc7
       - cargo-sources.json
