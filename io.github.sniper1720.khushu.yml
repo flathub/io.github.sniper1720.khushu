@@ -14,7 +14,6 @@ finish-args:
   - --socket=pulseaudio
   - --device=dri
   - --talk-name=org.kde.StatusNotifierWatcher
-  - --filesystem=xdg-run/tray-icon:create
   - --env=LOCPATH=/app/usr/lib/locale
 modules:
   - name: khushu
@@ -30,6 +29,6 @@ modules:
         - -Dgenerate_locales=auto
     sources:
       - type: archive
-        url: https://github.com/sniper1720/khushu/archive/refs/tags/v1.2.0.tar.gz
-        sha256: 43b43750f8697026fb1503d1014a77a722700b45013ca34827b708432ccd3034
+        url: https://github.com/sniper1720/khushu/archive/refs/tags/v1.2.1.tar.gz
+        sha256: 35c2087393ec9e398b7eff3fe9118106ae95039b3df42f55fbc69c70a71820fa
       - cargo-sources.json
