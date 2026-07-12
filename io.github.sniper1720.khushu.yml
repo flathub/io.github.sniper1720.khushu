@@ -29,6 +29,6 @@ modules:
         - -Dgenerate_locales=auto
     sources:
       - type: archive
-        url: https://github.com/sniper1720/khushu/archive/refs/tags/v1.2.2.tar.gz
-        sha256: 9f7bd38cf5f0a4a9192350d56c9e1d66176b72616dbe002d12db3aef2bd62729
+        url: https://github.com/sniper1720/khushu/archive/refs/tags/v1.3.0.tar.gz
+        sha256: 2d47fd9a80a948775ad5c01a4d468c95e4e1aa0181db8b5655a6270f887274fd
       - cargo-sources.json
