@@ -1,6 +1,6 @@
 app-id: io.github.sniper1720.khushu
 runtime: org.gnome.Platform
-runtime-version: "50"
+runtime-version: "51"
 sdk: org.gnome.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.rust-stable
@@ -29,6 +29,6 @@ modules:
         - -Dgenerate_locales=auto
     sources:
       - type: archive
-        url: https://github.com/sniper1720/khushu/archive/refs/tags/v1.3.4.tar.gz
-        sha256: 8d4149d86215b3957364b6a0d692af518db36aa0fbb4627458cbb7366e0dd97d
+        url: https://github.com/sniper1720/khushu/archive/refs/tags/v1.3.5.tar.gz
+        sha256: f426870d3ac7523ccacb5f8b0518914563521f0585961d113cf1d49e340780cc
       - cargo-sources.json
